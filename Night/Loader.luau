@@ -7,7 +7,7 @@ if not game:IsLoaded() then
 end
 
 getgenv().Night = {
-    Dev = false,
+    Dev = true,
     Connections = {},
     Pages = {},
     Tabs = {Tabs = {}},
