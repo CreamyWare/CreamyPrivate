@@ -252,9 +252,9 @@ end
 if not HitRemoteName then
     Functions.Notify("Failed to get the hit remote, due to how bad your executor is. Find supported executors in our server: https://discord.gg/PvhQnTWaHy (invite copied to clipboard).", 15)
     if setclipboard then
-        setclipboard("https://discord.gg/PvhQnTWaHy")
+        setclipboard("https://discord.gg/wKEdvbpjay")
     elseif toclipboard then
-        toclipboard("https://discord.gg/PvhQnTWaHy")
+        toclipboard("https://discord.gg/wKEdvbpjay")
     end
     return
 end
